@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-consumer-feign
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://49.235.247.57:11001/eureka/
+server:
+  port: 2301
